@@ -1,7 +1,5 @@
 # libft
 
----
-
 ## Mandatory functions
 
 **1. Characters functions:**
@@ -81,8 +79,6 @@
 - ft_putendl_fd
 
 - ft_putnbr_fd
-
----
 
 ## Bonus functions
 
