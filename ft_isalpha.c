@@ -6,7 +6,7 @@
 /*   By: ldrobek <ldrobek@student.42prague.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/16 21:51:27 by ldrobek           #+#    #+#             */
-/*   Updated: 2024/07/16 21:57:45 by ldrobek          ###   ########.fr       */
+/*   Updated: 2024/07/17 21:29:33 by ldrobek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,4 +20,3 @@ int	ft_isalpha(char c)
 		return (1);
 	return (0);
 }
-
