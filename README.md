@@ -1,5 +1,9 @@
 # libft
 
+## Note
+
+Functions marked with an aterisk (*) are not part of the standard C library (libc). These are custom functions implemented as a part of the libft project.
+
 ## Mandatory functions
 
 **1. Characters functions:**
@@ -34,17 +38,17 @@
 
 - ft_strnstr
 
-- ft_substr
+- *ft_substr*
 
-- ft_strjoin
+- *ft_strjoin*
 
-- ft_strtrim
+- *ft_strtrim*
 
-- ft_split
+- *ft_split*
 
-- ft_strmapi
+- *ft_strmapi*
 
-- ft_striteri
+- *ft_striteri*
 
 **3. Memory functions:**
 
@@ -68,17 +72,17 @@
 
 - ft_atoi
 
-- ft_iota
+- *ft_iota*
 
 **5. File descriptor functions:**
 
-- ft_putchar_fd
+- *ft_putchar_fd*
 
-- ft_putstr_fd
+- *ft_putstr_fd*
 
-- ft_putendl_fd
+- *ft_putendl_fd*
 
-- ft_putnbr_fd
+- *ft_putnbr_fd*
 
 ## Bonus functions
 
