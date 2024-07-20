@@ -6,7 +6,7 @@
 /*   By: ldrobek <ldrobek@student.42prague.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/20 07:15:38 by ldrobek           #+#    #+#             */
-/*   Updated: 2024/07/20 07:35:57 by ldrobek          ###   ########.fr       */
+/*   Updated: 2024/07/20 07:41:19 by ldrobek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 void	ft_lastadd_front(t_list **lst, t_list *new)
 {
 	if (!new)
-		return;
+		return ;
 	if (!(*lst))
 	{
 		*lst = new;
