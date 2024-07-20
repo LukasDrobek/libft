@@ -6,7 +6,7 @@
 /*   By: ldrobek <ldrobek@student.42prague.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/16 21:54:55 by ldrobek           #+#    #+#             */
-/*   Updated: 2024/07/19 13:29:59 by ldrobek          ###   ########.fr       */
+/*   Updated: 2024/07/20 06:50:56 by ldrobek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,8 +45,13 @@ void	*ft_memmove(void *dst, const void *src, size_t n);
 void	*ft_memchr(const void *src, int c, size_t n);
 
 // Numerical functions
+int		ft_atoi(const char *s);
+char	*ft_itoa(int n);
 
 // File descriptor functions
+void	ft_putchar_fd(char c, int fd);
+void	ft_putstr_fd(char *s, int fd);
+void	ft_putendl_fd(char *s, int fd);
 
 // List manipulation
 
