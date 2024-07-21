@@ -6,7 +6,7 @@
 /*   By: ldrobek <ldrobek@student.42prague.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/20 05:47:12 by ldrobek           #+#    #+#             */
-/*   Updated: 2024/07/21 08:42:48 by ldrobek          ###   ########.fr       */
+/*   Updated: 2024/07/21 08:59:37 by ldrobek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,8 @@ char	*ft_itoa(int n)
 
 	num = (long)n;
 	len = ft_num_len(num);
-	if (!(res = malloc((len + 1) * sizeof(char))))
+	res = malloc((len + 1) * sizeof(char));
+	if (!res)
 		return (NULL);
 	res = ft_num_to_str(res, num, len);
 	return (res);
