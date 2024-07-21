@@ -8,37 +8,37 @@ Functions marked with an aterisk (*) are not part of the standard C library (lib
 
 **1. Characters functions:**
 
-- ft_isalpha
+- ft_isalpha (done ✅)
 
-- ft_isdigit
+- ft_isdigit (done ✅)
 
-- ft_isalnum
+- ft_isalnum (done ✅)
 
-- ft_isascii
+- ft_isascii (done ✅)
 
-- ft_isprint
+- ft_isprint (done ✅)
 
-- ft_toupper
+- ft_toupper (done ✅)
 
-- ft_tolower
+- ft_tolower (done ✅)
 
 **2. String functions:**
 
-- ft_strlen
+- ft_strlen (done ✅)
 
-- ft_strlcpy
+- ft_strlcpy (done ✅)
 
-- ft_strlcat
+- ft_strlcat (done ✅)
 
-- ft_strchr
+- ft_strchr (done ✅)
 
-- ft_strrchr
+- ft_strrchr (done ✅)
 
-- ft_strncmp
+- ft_strncmp (done ✅)
 
-- ft_strnstr
+- ft_strnstr (done ✅)
 
-- *ft_substr*
+- *ft_substr* (done ✅)
 
 - *ft_strjoin*
 
@@ -52,56 +52,56 @@ Functions marked with an aterisk (*) are not part of the standard C library (lib
 
 **3. Memory functions:**
 
-- ft_calloc
+- ft_calloc (done ✅)
 
-- ft_memset
+- ft_memset (done ✅)
 
-- ft_bzero
+- ft_bzero (done ✅)
 
-- ft_memcpy
+- ft_memcpy (done ✅)
 
-- ft_memmove
+- ft_memmove (done ✅)
 
-- ft_memchr
+- ft_memchr (done ✅)
 
-- ft_memcmp
+- ft_memcmp (done ✅)
 
-- ft_strdup
+- ft_strdup (done ✅)
 
 **4. Numerical functions:**
 
-- ft_atoi
+- ft_atoi (done ✅)
 
-- *ft_iota*
+- *ft_itoa* (done ✅)
 
 **5. File descriptor functions:**
 
-- *ft_putchar_fd*
+- *ft_putchar_fd* (done ✅)
 
-- *ft_putstr_fd*
+- *ft_putstr_fd* (done ✅)
 
-- *ft_putendl_fd*
+- *ft_putendl_fd* (done ✅)
 
-- *ft_putnbr_fd*
+- *ft_putnbr_fd* (done ✅)
 
 ## Bonus functions
 
 **1. List manipulation:**
 
-- ft_lstnew
+- ft_lstnew (done ✅)
 
-- ft_lstadd_front
+- ft_lstadd_front (done ✅)
 
-- ft_lstsize
+- ft_lstsize (done ✅)
 
-- ft_lstlast
+- ft_lstlast (done ✅)
 
-- ft_lstadd_back
+- ft_lstadd_back (done ✅)
 
-- ft_lstdelone
+- ft_lstdelone (done ✅)
 
-- ft_lstclear
+- ft_lstclear (done ✅)
 
-- ft_lstiter
+- ft_lstiter (done ✅)
 
-- ft_lstmap
+- ft_lstmap (done ✅)
