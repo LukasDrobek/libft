@@ -6,7 +6,7 @@
 /*   By: ldrobek <ldrobek@student.42prague.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/19 07:10:56 by ldrobek           #+#    #+#             */
-/*   Updated: 2024/07/19 07:37:18 by ldrobek          ###   ########.fr       */
+/*   Updated: 2024/07/21 08:42:03 by ldrobek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,7 @@ void	*ft_calloc(size_t n, size_t size)
 {
 	void	*res;
 
-	res = malloc(n * size);
-	if (!res)
+	if (!(res = malloc(n * size)))
 		return (NULL);
 	ft_bzero(res, n * size);
 	return (res);

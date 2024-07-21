@@ -6,7 +6,7 @@
 /*   By: ldrobek <ldrobek@student.42prague.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/20 07:08:34 by ldrobek           #+#    #+#             */
-/*   Updated: 2024/07/20 07:14:45 by ldrobek          ###   ########.fr       */
+/*   Updated: 2024/07/21 08:43:14 by ldrobek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,7 @@ t_list	*ft_lstnew(void *content)
 {
 	t_list	*node;
 
-	node = malloc(sizeof(t_list));
-	if (!node)
+	if (!(node = malloc(sizeof(t_list))))
 		return (NULL);
 	node->content = content;
 	node->next = NULL;
