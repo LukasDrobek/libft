@@ -40,11 +40,11 @@ Functions marked with an aterisk (*) are not part of the standard C library (lib
 
 - *ft_substr* (done ✅)
 
-- *ft_strjoin*
+- *ft_strjoin* (done ✅)
 
-- *ft_strtrim*
+- *ft_strtrim* (done ✅)
 
-- *ft_split*
+- *ft_split* (done ✅)
 
 - *ft_strmapi*
 
