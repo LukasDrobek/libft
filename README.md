@@ -46,9 +46,9 @@ Functions marked with an aterisk (*) are not part of the standard C library (lib
 
 - *ft_split* (done ✅)
 
-- *ft_strmapi*
+- *ft_strmapi* (done ✅)
 
-- *ft_striteri*
+- *ft_striteri* (done ✅)
 
 **3. Memory functions:**
 
