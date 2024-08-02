@@ -2,13 +2,9 @@
 
 ## ABOUT
 
-This is the very first project inside 42's core curriculum. The goal is to learn more about standard C functions and explore how they work by implementing them from scratch. The finished project is a custom library that can be reused in later projects.
+This is the very first project in 42's core curriculum. The goal is to learn more about standard C functions and explore how they work by implementing them from scratch. The finished project is a custom library that can be reused in later projects.
 
-More details about this project and its implementation can be found in the attatched [**subject file**](./subject.pdf)
-
-## NOTE
-
-Functions marked with an aterisk (*) are not part of the standard C library (libc). These are custom functions implemented as a part of the libft project.
+More details about this project and its implementation can be found in the attached [**subject file**](./subject.pdf)
 
 ## MANDATORY
 
@@ -16,7 +12,7 @@ Functions marked with an aterisk (*) are not part of the standard C library (lib
 
 | Function | Description |
 | :- | :- |
-| `ft_isalpha` | Tests for an aplhabetical character. |
+| `ft_isalpha` | Tests for an alphabetical character. |
 | `ft_isdigit` | Tests whether a character is a decimal digit. |
 | `ft_isalnum` | Tests for an alphanumeric character. |
 | `ft_isascii` | Checks for a valid ASCII set character. |
@@ -31,10 +27,10 @@ Functions marked with an aterisk (*) are not part of the standard C library (lib
 | `ft_strlen` | Finds the length of a given string. |
 | `ft_strlcpy` | Size-bounded string copying. |
 | `ft_strlcat` | Size-bounded string concatenation. |
-| `ft_strchr` | Finds the first occurence of a character in a string. |
-| `ft_strrchr` | Finds the last occurence of a character in a string. |
+| `ft_strchr` | Finds the first occurrence of a character in a string. |
+| `ft_strrchr` | Finds the last occurrence of a character in a string. |
 | `ft_strncmp` | Compares the first 'n' characters of two strings. |
-| `ft_strnstr` | Finds the first occurence of a substring within first 'n' characters. |
+| `ft_strnstr` | Finds the first occurrence of a substring within first 'n' characters. |
 | `ft_substr` | Extracts a substring from a given string. |
 | `ft_strjoin` | Concatenates two strings into a new string (with malloc). |
 | `ft_strtrim` | Trims the beginning and end of a string with a specified set of characters. |
@@ -50,21 +46,21 @@ Functions marked with an aterisk (*) are not part of the standard C library (lib
 | `ft_memset` | Sets the first 'n' bytes of memory to a given value. |
 | `ft_bzero` | Sets the first 'n' bytes of memory to zero. |
 | `ft_memcpy` | Copies 'n' bytes of memory (ignores memory overlaps) |
-| `ft_memmove` | Copes 'n' bytes of memory (handles memory overlaps) |
-| `ft_memchr` | Scans the first 'n' bytes of memory for the first occurence of a given value. |
+| `ft_memmove` | Copies 'n' bytes of memory (handles memory overlaps) |
+| `ft_memchr` | Scans the first 'n' bytes of memory for the first occurrence of a given value. |
 | `ft_memcmp` | Compares the first 'n' bytes of two areas in memory |
-| `ft_strdup` | Create a copy of a string (with malloc) |
+| `ft_strdup` | Creates a copy of a string (with malloc) |
 
 ### 4. Numerical functions:
 
-| Functions | Description |
+| Function | Description |
 | :- | :- |
 | `ft_atoi` | Converts an ASCII string to an integer value. |
 | `ft_itoa` | Converts an integer to a valid ASCII string. |
 
 ### 5. File descriptor functions:
 
-| Functions | Description |
+| Function | Description |
 | :- | :- |
 | `ft_putchar_fd` | Outputs a character to the given file descriptor. |
 | `ft_putstr_fd` | Outputs a string to the given file descriptor. |
@@ -81,6 +77,6 @@ Functions marked with an aterisk (*) are not part of the standard C library (lib
 | `ft_lstsize` | Calculates the number of nodes of a list. |
 | `ft_lstlast` | Finds the last node of a list. |
 | `ft_lstdelone` | Deletes a node from a list (with free) |
-| `ft_lstclear` | Deletes all sequential nodes from a list. |
+| `ft_lstclear` | Deletes all nodes from a list. |
 | `ft_lstiter` | Apply a function to each node of a list. |
 | `ft_lstmap` | Create a new list by applying a function to each node. |
