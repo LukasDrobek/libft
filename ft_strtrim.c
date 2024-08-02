@@ -6,7 +6,7 @@
 /*   By: ldrobek <ldrobek@student.42prague.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/02 16:20:55 by ldrobek           #+#    #+#             */
-/*   Updated: 2024/08/02 16:36:43 by ldrobek          ###   ########.fr       */
+/*   Updated: 2024/08/02 22:18:22 by ldrobek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
 
 char	*ft_strtrim(const char *s1, const char *set)
 {
-	char	*res;
 	size_t	start;
 	size_t	end;
 

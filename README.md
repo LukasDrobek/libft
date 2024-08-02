@@ -8,100 +8,100 @@ Functions marked with an aterisk (*) are not part of the standard C library (lib
 
 **1. Characters functions:**
 
-- ft_isalpha (done ✅)
+- ft_isalpha
 
-- ft_isdigit (done ✅)
+- ft_isdigit
 
-- ft_isalnum (done ✅)
+- ft_isalnum
 
-- ft_isascii (done ✅)
+- ft_isascii
 
-- ft_isprint (done ✅)
+- ft_isprint
 
-- ft_toupper (done ✅)
+- ft_toupper
 
-- ft_tolower (done ✅)
+- ft_tolower
 
 **2. String functions:**
 
-- ft_strlen (done ✅)
+- ft_strlen
 
-- ft_strlcpy (done ✅)
+- ft_strlcpy
 
-- ft_strlcat (done ✅)
+- ft_strlcat
 
-- ft_strchr (done ✅)
+- ft_strchr
 
-- ft_strrchr (done ✅)
+- ft_strrchr
 
-- ft_strncmp (done ✅)
+- ft_strncmp
 
-- ft_strnstr (done ✅)
+- ft_strnstr
 
-- *ft_substr* (done ✅)
+- *ft_substr*
 
-- *ft_strjoin* (done ✅)
+- *ft_strjoin*
 
-- *ft_strtrim* (done ✅)
+- *ft_strtrim*
 
-- *ft_split* (done ✅)
+- *ft_split*
 
-- *ft_strmapi* (done ✅)
+- *ft_strmapi*
 
-- *ft_striteri* (done ✅)
+- *ft_striteri*
 
 **3. Memory functions:**
 
-- ft_calloc (done ✅)
+- ft_calloc
 
-- ft_memset (done ✅)
+- ft_memset
 
-- ft_bzero (done ✅)
+- ft_bzero
 
-- ft_memcpy (done ✅)
+- ft_memcpy
 
-- ft_memmove (done ✅)
+- ft_memmove
 
-- ft_memchr (done ✅)
+- ft_memchr
 
-- ft_memcmp (done ✅)
+- ft_memcmp
 
-- ft_strdup (done ✅)
+- ft_strdup
 
 **4. Numerical functions:**
 
-- ft_atoi (done ✅)
+- ft_atoi
 
-- *ft_itoa* (done ✅)
+- *ft_itoa*
 
 **5. File descriptor functions:**
 
-- *ft_putchar_fd* (done ✅)
+- *ft_putchar_fd*
 
-- *ft_putstr_fd* (done ✅)
+- *ft_putstr_fd*
 
-- *ft_putendl_fd* (done ✅)
+- *ft_putendl_fd*
 
-- *ft_putnbr_fd* (done ✅)
+- *ft_putnbr_fd*
 
 ## Bonus functions
 
 **1. List manipulation:**
 
-- ft_lstnew (done ✅)
+- ft_lstnew
 
-- ft_lstadd_front (done ✅)
+- ft_lstadd_front
 
-- ft_lstsize (done ✅)
+- ft_lstsize
 
-- ft_lstlast (done ✅)
+- ft_lstlast
 
-- ft_lstadd_back (done ✅)
+- ft_lstadd_back
 
-- ft_lstdelone (done ✅)
+- ft_lstdelone
 
-- ft_lstclear (done ✅)
+- ft_lstclear
 
-- ft_lstiter (done ✅)
+- ft_lstiter
 
-- ft_lstmap (done ✅)
+- ft_lstmap
