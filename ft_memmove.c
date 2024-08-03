@@ -6,7 +6,7 @@
 /*   By: ldrobek <ldrobek@student.42prague.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/19 07:50:48 by ldrobek           #+#    #+#             */
-/*   Updated: 2024/07/19 13:17:15 by ldrobek          ###   ########.fr       */
+/*   Updated: 2024/08/03 20:23:43 by ldrobek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,6 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	unsigned char	*dptr;
 	unsigned char	*sptr;
 
-	if (!dst || !src)
-		return (NULL);
 	if (dst == src || n == 0)
 		return (dst);
 	dptr = (unsigned char *)dst;

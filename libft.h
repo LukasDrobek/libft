@@ -6,7 +6,7 @@
 /*   By: ldrobek <ldrobek@student.42prague.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/16 21:54:55 by ldrobek           #+#    #+#             */
-/*   Updated: 2024/08/03 19:46:28 by ldrobek          ###   ########.fr       */
+/*   Updated: 2024/08/03 20:14:48 by ldrobek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,11 @@ typedef struct s_list
 }	t_list;
 
 // Characters functions
-int		ft_isalpha(char c);
-int		ft_isdigit(char c);
-int		ft_isalnum(char c);
+int		ft_isalpha(int c);
+int		ft_isdigit(int c);
+int		ft_isalnum(int c);
 int		ft_isascii(int c);
-int		ft_isprint(char c);
+int		ft_isprint(int c);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
 

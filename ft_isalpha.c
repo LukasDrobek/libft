@@ -6,13 +6,13 @@
 /*   By: ldrobek <ldrobek@student.42prague.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/16 21:51:27 by ldrobek           #+#    #+#             */
-/*   Updated: 2024/07/17 21:29:33 by ldrobek          ###   ########.fr       */
+/*   Updated: 2024/08/03 20:12:49 by ldrobek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalpha(char c)
+int	ft_isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);

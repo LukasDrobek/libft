@@ -6,7 +6,7 @@
 /*   By: ldrobek <ldrobek@student.42prague.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/20 08:00:29 by ldrobek           #+#    #+#             */
-/*   Updated: 2024/07/20 08:10:36 by ldrobek          ###   ########.fr       */
+/*   Updated: 2024/08/03 20:23:46 by ldrobek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,8 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 
 	if (!lst)
 		return (NULL);
+	new = NULL;
+	node = NULL;
 	while (lst)
 	{
 		if (f)
