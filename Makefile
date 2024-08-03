@@ -6,13 +6,13 @@
 #    By: ldrobek <ldrobek@student.42prague.com>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/02 21:40:19 by ldrobek           #+#    #+#              #
-#    Updated: 2024/08/02 22:19:17 by ldrobek          ###   ########.fr        #
+#    Updated: 2024/08/03 20:02:11 by ldrobek          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-LIB =			libft.a
+NAME =			libft.a
 
-LIB_C =			ar rcs
+AR =			ar rcs
 
 CC =			cc
 
@@ -73,19 +73,19 @@ BONUS_SRCS =	$(addsuffix .c, $(BONUS_FNS))
 
 BONUS_OBJS =	$(addsuffix .o, $(BONUS_FNS))
 
-all: $(LIB)
+all: $(NAME)
 
-$(LIB): $(OBJS)
-	$(LIB_C) $(LIB) $(OBJS)
+$(NAME): $(OBJS)
+	$(AR) $(NAME) $(OBJS)
 
 bonus: $(BONUS_OBJS)
-	$(LIB_C) $(LIB) $(BONUS_OBJS)
+	$(AR) $(NAME) $(BONUS_OBJS)
 
 clean:
 	rm -f $(OBJS) $(BONUS_OBJS)
 
 fclean: clean
-	rm -f $(LIB)
+	rm -f $(NAME)
 
 re: fclean all
 
