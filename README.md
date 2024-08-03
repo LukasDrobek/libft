@@ -12,71 +12,71 @@ More details about this project and its implementation can be found in the attac
 
 | Function | Description |
 | :- | :- |
-| `ft_isalpha` | Tests for an alphabetical character. |
-| `ft_isdigit` | Tests whether a character is a decimal digit. |
-| `ft_isalnum` | Tests for an alphanumeric character. |
-| `ft_isascii` | Checks for a valid ASCII set character. |
-| `ft_isprint` | Tests whether a character is printable. |
-| `ft_toupper` | Converts a lower-case character to upper-case. |
-| `ft_tolower` | Converts an upper-case character to lower-case. |
+| [`ft_isalpha`](./ft_isalpha.c) | Tests for an alphabetical character. |
+| [`ft_isdigit`](./ft_isdigit.c) | Tests whether a character is a decimal digit. |
+| [`ft_isalnum`](./ft_isalnum.c) | Tests for an alphanumeric character. |
+| [`ft_isascii`](./ft_isascii.c) | Checks for a valid ASCII set character. |
+| [`ft_isprint`](./ft_isprint.c) | Tests whether a character is printable. |
+| [`ft_toupper`](./ft_toupper.c) | Converts a lower-case character to upper-case. |
+| [`ft_tolower`](./ft_tolower.c) | Converts an upper-case character to lower-case. |
 
 ### 2. String functions:
 
 | Function | Description |
 | :- | :- |
-| `ft_strlen` | Finds the length of a given string. |
-| `ft_strlcpy` | Size-bounded string copying. |
-| `ft_strlcat` | Size-bounded string concatenation. |
-| `ft_strchr` | Finds the first occurrence of a character in a string. |
-| `ft_strrchr` | Finds the last occurrence of a character in a string. |
-| `ft_strncmp` | Compares the first 'n' characters of two strings. |
-| `ft_strnstr` | Finds the first occurrence of a substring within first 'n' characters. |
-| `ft_substr` | Extracts a substring from a given string. |
-| `ft_strjoin` | Concatenates two strings into a new string (with malloc). |
-| `ft_strtrim` | Trims the beginning and end of a string with a specified set of characters. |
-| `ft_split` | Splits a string into an array of substrings based on a delimiter character. |
-| `ft_strmapi` | Creates a new string by applying a function to each character of a string. |
-| `ft_striteri` | Applies a function to each character of a string. |
+| [`ft_strlen`](./ft_strlen.c) | Finds the length of a given string. |
+| [`ft_strlcpy`](./ft_strlcpy.c) | Size-bounded string copying. |
+| [`ft_strlcat`](./ft_strlcat.c) | Size-bounded string concatenation. |
+| [`ft_strchr`](./ft_strchr.c) | Finds the first occurrence of a character in a string. |
+| [`ft_strrchr`](./ft_strrchr.c) | Finds the last occurrence of a character in a string. |
+| [`ft_strncmp`](./ft_strncmp.c) | Compares the first 'n' characters of two strings. |
+| [`ft_strnstr`](./ft_strnstr.c) | Finds the first occurrence of a substring within first 'n' characters. |
+| [`ft_substr`](./ft_substr.c) | Extracts a substring from a given string. |
+| [`ft_strjoin`](./ft_strjoin.c) | Concatenates two strings into a new string (with malloc). |
+| [`ft_strtrim`](./ft_strtrim.c) | Trims the beginning and end of a string with a specified set of characters. |
+| [`ft_split`](./ft_split.c) | Splits a string into an array of substrings based on a delimiter character. |
+| [`ft_strmapi`](./ft_strmapi.c) | Creates a new string by applying a function to each character of a string. |
+| [`ft_striteri`](./ft_striteri.c) | Applies a function to each character of a string. |
 
 ### 3. Memory functions:
 
 | Function | Description |
 | :- | :- |
-| `ft_calloc` | Allocates memory and initializes each block with a default value. |
-| `ft_memset` | Sets the first 'n' bytes of memory to a given value. |
-| `ft_bzero` | Sets the first 'n' bytes of memory to zero. |
-| `ft_memcpy` | Copies 'n' bytes of memory (ignores memory overlaps) |
-| `ft_memmove` | Copies 'n' bytes of memory (handles memory overlaps) |
-| `ft_memchr` | Scans the first 'n' bytes of memory for the first occurrence of a given value. |
-| `ft_memcmp` | Compares the first 'n' bytes of two areas in memory |
-| `ft_strdup` | Creates a copy of a string (with malloc) |
+| [`ft_calloc`](./ft_calloc.c) | Allocates memory and initializes each block with a default value. |
+| [`ft_memset`](./ft_memset.c) | Sets the first 'n' bytes of memory to a given value. |
+| [`ft_bzero`](./ft_bzero.c) | Sets the first 'n' bytes of memory to zero. |
+| [`ft_memcpy`](./ft_memcpy.c) | Copies 'n' bytes of memory (ignores memory overlaps) |
+| [`ft_memmove`](./ft_memmove.c) | Copies 'n' bytes of memory (handles memory overlaps) |
+| [`ft_memchr`](./ft_memchr.c) | Scans the first 'n' bytes of memory for the first occurrence of a given value. |
+| [`ft_memcmp`](./ft_memcmp.c) | Compares the first 'n' bytes of two areas in memory |
+| [`ft_strdup`](./ft_strdup.c) | Creates a copy of a string (with malloc) |
 
 ### 4. Numerical functions:
 
 | Function | Description |
 | :- | :- |
-| `ft_atoi` | Converts an ASCII string to an integer value. |
-| `ft_itoa` | Converts an integer to a valid ASCII string. |
+| [`ft_atoi`](./ft_atoi.c) | Converts an ASCII string to an integer value. |
+| [`ft_itoa`](./ft_itoa.c) | Converts an integer to a valid ASCII string. |
 
 ### 5. File descriptor functions:
 
 | Function | Description |
 | :- | :- |
-| `ft_putchar_fd` | Outputs a character to the given file descriptor. |
-| `ft_putstr_fd` | Outputs a string to the given file descriptor. |
-| `ft_putend_fd` | Outputs a string followed by a new line to the given file descriptor. |
-| `ft_putnbr_fd` | Outputs an integer to the given file descriptor. |
+| [`ft_putchar_fd`](./ft_putchar_fd.c) | Outputs a character to the given file descriptor. |
+| [`ft_putstr_fd`](./ft_putstr_fd.c) | Outputs a string to the given file descriptor. |
+| [`ft_putendl_fd`](./ft_putendl_fd.c) | Outputs a string followed by a new line to the given file descriptor. |
+| [`ft_putnbr_fd`](./ft_putnbr_fd.c) | Outputs an integer to the given file descriptor. |
 
 ## BONUS
 
 | Functions | Description |
 | :- | :- |
-| `ft_lstnew` | Creates a new linked-list (with malloc). |
-| `ft_lstadd_front` | Adds a new node to the beginning of a list. |
-| `ft_lstadd_back` | Adds a new node to the end of a list. |
-| `ft_lstsize` | Calculates the number of nodes of a list. |
-| `ft_lstlast` | Finds the last node of a list. |
-| `ft_lstdelone` | Deletes a node from a list (with free) |
-| `ft_lstclear` | Deletes all nodes from a list. |
-| `ft_lstiter` | Apply a function to each node of a list. |
-| `ft_lstmap` | Create a new list by applying a function to each node. |
+| [`ft_lstnew`](./ft_lstnew.c) | Creates a new linked-list (with malloc). |
+| [`ft_lstadd_front`](./ft_lstadd_front.c) | Adds a new node to the beginning of a list. |
+| [`ft_lstadd_back`](./ft_lstadd_back.c) | Adds a new node to the end of a list. |
+| [`ft_lstsize`](./ft_lstsize.c) | Calculates the number of nodes of a list. |
+| [`ft_lstlast`](./ft_lstlast.c) | Finds the last node of a list. |
+| [`ft_lstdelone`](./ft_lstdelone.c) | Deletes a node from a list (with free) |
+| [`ft_lstclear`](./ft_lstclear.c) | Deletes all nodes from a list. |
+| [`ft_lstiter`](./ft_lstiter.c) | Apply a function to each node of a list. |
+| [`ft_lstmap`](./ft_lstmap.c) | Create a new list by applying a function to each node. |

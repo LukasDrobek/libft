@@ -6,7 +6,7 @@
 /*   By: ldrobek <ldrobek@student.42prague.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/16 21:54:55 by ldrobek           #+#    #+#             */
-/*   Updated: 2024/08/02 22:17:57 by ldrobek          ###   ########.fr       */
+/*   Updated: 2024/08/03 19:46:28 by ldrobek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,9 +72,9 @@ void	ft_putnbr_fd(int n, int fd);
 // List manipulation
 t_list	*ft_lstnew(void *content);
 void	ft_lastadd_front(t_list **lst, t_list *new);
+void	ft_lstadd_back(t_list **lst, t_list *new);
 int		ft_lstsize(t_list *lst);
 t_list	*ft_lstlast(t_list *lst);
-void	ft_lstadd_back(t_list **lst, t_list *new);
 void	ft_lstdelone(t_list *lst, void (*del)(void*));
 void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
