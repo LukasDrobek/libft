@@ -6,7 +6,7 @@
 /*   By: ldrobek <ldrobek@student.42prague.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/02 16:38:48 by ldrobek           #+#    #+#             */
-/*   Updated: 2024/08/02 17:46:33 by ldrobek          ###   ########.fr       */
+/*   Updated: 2024/08/03 20:39:09 by ldrobek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,9 +43,12 @@ static size_t	ft_get_len(const char *s, char c)
 	len = 0;
 	while (s[i])
 	{
+		while (s[i] && s[i] == c)
+			i++;
+		if (s[i])
+			len++;
 		while (s[i] && s[i] != c)
 			i++;
-		len++;
 	}
 	return (len);
 }
@@ -80,7 +83,7 @@ char	**ft_split(const char *s, char c)
 			ft_free(res, pos - 1);
 			return (NULL);
 		}
-		start = ft_skip(s + end, c);
+		start += ft_skip(s + end, c);
 	}
 	res[pos] = NULL;
 	return (res);
